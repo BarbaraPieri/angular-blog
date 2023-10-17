@@ -1,0 +1,65 @@
+.container__big-card{
+  background-color: white;
+  width: 1600px;
+  height: 600px;
+  margin: 80px;
+
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+}
+
+.big-card__photo{
+  border: solid white 10px;
+  box-shadow:  20px 20px 10px 25px rgb(231, 228, 228);
+  margin-right: 60px;
+  margin-left: 40px;
+
+}
+
+.big-card__title{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: white;
+
+}
+
+.big-card__title > h1 {
+  background-color: white;
+}
+
+.big-card__title > h1 > a {
+  background-color: white;
+  font-size: 60px;
+  margin: 10px;
+}
+
+.big-card__title > p {
+  background-color: white;
+  font-size: 25px;
+  margin: 30px;
+  text-align: center;
+}
+.big-card_contacts{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+
+.big-card_contacts > li{
+    list-style: none;
+    margin-left: 30px;
+
+}
+
+.big-card_contacts > p{
+  background-color: white;
+}
+.big-card_contacts > li > a{
+  background-color: white;
+
+}

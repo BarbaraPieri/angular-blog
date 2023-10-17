@@ -1,0 +1,17 @@
+.container_section-title{
+  color: black;
+}
+
+.container_section-title > h1{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.container_section-title > hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+

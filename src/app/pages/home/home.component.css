@@ -1,0 +1,12 @@
+.articles_others{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+ header{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
